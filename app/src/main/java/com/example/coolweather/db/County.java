@@ -17,12 +17,12 @@ public class County extends DataSupport {
         this.id = id;
     }
 
-    public String getCountyNmae() {
-        return countyNmae;
+    public String getCountyName() {
+        return countyName;
     }
 
-    public void setCountyNmae(String countyNmae) {
-        this.countyNmae = countyNmae;
+    public void setCountyName(String countyNmae) {
+        this.countyName = countyNmae;
     }
 
     public String getWeatherId() {
@@ -41,7 +41,7 @@ public class County extends DataSupport {
         this.cityId = cityId;
     }
 
-    private String countyNmae;
+    private String countyName;
     private String weatherId;
     private int cityId;
 }
